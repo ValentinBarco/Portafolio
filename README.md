@@ -5,62 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
-    <style>
-        /* Estilos generales */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header, section, footer {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* Estilos para el header */
-        header {
-            text-align: center;
-            border-bottom: 1px solid #eaeaea;
-        }
-
-        /* Estilos para las habilidades */
-        #skills ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        #skills li {
-            background-color: #eaeaea;
-            padding: 5px 10px;
-            margin-bottom: 10px;
-            border-radius: 3px;
-        }
-
-        /* Estilos para el footer */
-        footer {
-            text-align: center;
-            border-top: 1px solid #eaeaea;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Si tienes un archivo CSS para estilos -->
 </head>
 
 <body>
@@ -109,4 +54,3 @@
 </body>
 
 </html>
-
