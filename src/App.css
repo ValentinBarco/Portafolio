@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  width: 100vw;
+  background-color: rgb(13, 19, 29);
+  background: linear-gradient( 180deg, rgb(0, 0, 0), rgb(32, 54, 56));
+}
+/* rgb(11, 19, 32) */
+.properties {
+  display: flex;
+  flex-direction:inherit;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #197879;
+  border-radius: 5px;
+}
+
+
+.parallax-window {
+  min-height: 700px;
+  background: transparent;
+  background-color: black;
+  top:0;
+  left: 0;
+
+}
+.Fondo-contenedor{
+  height: 100vh;
+  z-index: -1;
+}
+
+.Fondo-contenedor2{
+  height: 100vh;
+  width: 100%;
+
+  z-index: 1;
+  background: linear-gradient( rgb(14, 23, 22), rgb(34, 4, 4));
+}
+
+
+.imagen{
+  width: 100vw;
+  height: 90%;
+  opacity: 0.5;
+}
+.letras-animadas{
+
+  width: 100vw;
+  height: 200px;
+  
+  align-items: left;
+
+
+}
+
+.nombre {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin: auto;
+  color:rgb(209, 209, 209);
+  font-size: 3vw;
+  
+  font-family: 'Staatliches', cursive;
+  
+  
+}
+
+.titulo {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-28%, 110%);
+  margin: auto;
+  color:rgb(249, 134, 134);
+  font-size: 1.5vw;
+  min-block-size: 1vw;
+  font-family: 'Staatliches', cursive;
+  
+  
+}
+
+.perfil-tecnico {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  transform: translate(-28%, 80%);
+  margin: auto;
+  color:rgb(176, 176, 176);
+  font-size: 1.5vw;
+  min-block-size: 1vw;
+  font-family: 'Staatliches', cursive;
+  
+  
+}
+.seccion-de-proyectos{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -280%);
+  margin: auto;
+  color:rgb(180, 180, 180);
+  font-size: 30px;
+ 
+  font-family: 'Staatliches', cursive;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 60px;
+ 
+
+}
+
+.Holas{
+
+  position: absolute;
+  display: flex;
+
+}
+
+.Perfil{
+
+  width: 120%;
+  height: 10%;
+  position: relative;
+  z-index: 1;
+  opacity: 0.4;
+  background-color: rgb(255, 255, 255);
+  transform: translate(-30.5%,-180%);
+  
+}
+
+
+.IM{
+  display: flex;
+  
+}
